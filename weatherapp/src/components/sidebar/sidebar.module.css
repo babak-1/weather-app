@@ -1,0 +1,55 @@
+.hamburger {
+  display: none;
+}
+
+.hamburgerActive {
+  font-size: 100px;
+  transition: 500ms;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -53%;
+  transition: 850ms;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  opacity: 0.4;
+  color: #fff;
+}
+
+.sidebarActive {
+  left: 0%;
+  transition: 350ms;
+}
+
+.searchInput {
+  border: 0;
+  border-bottom: 1px solid #180707;
+  background: transparent;
+  width: 80%;
+  padding: 8px 0 5px 0;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeBtn {
+  width: 20px;
+  position: absolute;
+  right: 0px;
+  opacity: 0.2;
+}
+
+.closeBtn:hover {
+  display: block;
+  opacity: 1;
+}
